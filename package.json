@@ -1,0 +1,10 @@
+{
+  "name": "rosalind-node",
+  "version": "4.6.0",
+  "description": "Solving Rosalind With Node.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rbcasperson/rosalind-node.git"
+  },
+}
