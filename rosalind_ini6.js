@@ -14,4 +14,3 @@ export function main(data) {
         return result + `${key} ${value}\n`;
     }, ""))
 }
-    
