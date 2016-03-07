@@ -1,4 +1,4 @@
-module.exports = function (data) {
+export function main(data) {
     var lo = require('lodash');
     var datas = lo.split(data, "\n"),
         nums = lo.map(lo.split(datas[1], " "), lo.parseInt),
