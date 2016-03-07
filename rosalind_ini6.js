@@ -11,7 +11,7 @@ export function main(data) {
         return count
     }, {});
     return _.trim(_.reduce(count, (result, value, key) => {
-        return result + key + ' ' + value + '\n';
+        return result + `${key} ${value}\n`;
     }, ""))
 }
     
