@@ -13,4 +13,4 @@ if (args[1]) {
 var problemFile = `${downloadsDirectory}${problemName}.txt`;
 var data = fs.readFileSync(problemFile, {encoding: "utf8"});
 
-console.log(problemSolver(data));
+console.log(problemSolver.main(data));

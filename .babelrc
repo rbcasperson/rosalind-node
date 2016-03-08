@@ -1,3 +1,4 @@
 {
-  "plugins": ["transform-es2015-destructuring"]
+  "plugins": ["transform-es2015-destructuring"],
+  "presets": ["es2015"]
 }
