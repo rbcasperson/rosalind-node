@@ -11,7 +11,21 @@
     "lodash": "^4.6.1"
   },
   "devDependencies": {
+    "ava": "^0.12.0",
     "babel-cli": "^6.6.5",
     "babel-plugin-transform-es2015-destructuring": "^6.6.5"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "ava": {
+    "files": [
+      "test/*.js"
+    ],
+    "failFast": true,
+    "tap": true,
+    "require": [
+      "babel-core/register"
+    ]
   }
 }
