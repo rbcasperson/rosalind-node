@@ -6,7 +6,7 @@ import * as solver from '../rosalind_ini2';
 let sampleData;
 
 test.before(t => {
-    sampleData = fs.readFileSync('./sample_data/ini2_data.txt');
+    sampleData = fs.readFileSync('./sample_data/ini2_data.txt', {encoding: "utf8"});
 });
 
 test('solves ini2', t => {

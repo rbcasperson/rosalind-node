@@ -4,7 +4,7 @@ export function main(data) {
         lines = lo.split(data, "\n");
     lines.pop();
 
-    for (i = 1; i < lines.length; i += 2) {
+    for (var i = 1; i < lines.length; i += 2) {
         evens.push(lines[i]);
     };
 
