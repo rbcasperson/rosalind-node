@@ -1,6 +1,6 @@
 export function main(data) {
     var lo = require('lodash');
-    var nums = lo.map(data.split(" "), lo.parseInt),
+    var nums = lo.map(lo.split(data, " "), lo.parseInt),
         a = nums[0],
         b = nums[1],
         total = 0;
@@ -9,7 +9,7 @@ export function main(data) {
         a++;
     };
 
-    for (i = a; i <= b; i+= 2) {
+    for (var i = a; i <= b; i+= 2) {
         if (i % 2) {
             total += i;
         };
